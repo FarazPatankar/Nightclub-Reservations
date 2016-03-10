@@ -1,0 +1,19 @@
+<h1>New Reservation Request</h1>
+
+<h5>From: </h5><p><%= @reservation.name %></p>
+<br>
+
+<h5>Table Number: </h5><p><%= @reservation.table_number %></p>
+<h5>Number of People: </h5><p><%= @reservation.number_of_people %></p>
+<br>
+
+<h5>Date: </h5><p><%= @reservation.date %></p>
+<h5>Time: </h5><p><%= @reservation.time %></p>
+<br>
+
+<h5>Email: </h5><p><%= @reservation.email %></p>
+<h5>Number: </h5><p><%= @reservation.contact_number %></p>
+
+<% if @reservation.comments %>
+	<h5>Additional Info: </h5><p><%= @reservation.comments %></p>
+<% end %>
