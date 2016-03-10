@@ -19,4 +19,10 @@ $(window).bind('scroll', function() {
   										 height: 600,
   										 indicators: false,
   										 interval: 3500});
+  $('.carousel').carousel({
+            dist:-40,
+            shift:0,
+            padding:100,
+
+      });
 });

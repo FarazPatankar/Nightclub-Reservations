@@ -58,6 +58,59 @@ img.responsive-img.circle {
 	height: 350px;
 }
 
+.album-photo {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+div.material-placeholder {
+	display: inline-block;
+	padding: 5px 10px;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+img.responsive-img.materialboxed.initialized {
+	height: 200px;
+	width: auto;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.our-performers {
+	font-family: 'Special Elite';
+	font-size: 140px;
+	color: #c5b358;
+	-webkit-text-stroke: 1.5px black;
+	position: absolute;
+	transform: rotate(90deg);
+	top: 254%;
+  right: -33%;
+
+}
+
+.our-girls {
+	font-family: 'Special Elite';
+	font-size: 140px;
+	color: #c5b358;
+	-webkit-text-stroke: 1.5px black;
+	position: absolute;
+	transform: rotate(-90deg);
+	bottom: -3%;
+  left: -17%;
+}
+
+.performer {
+	border-right: 10px solid #c5b358;
+	margin: 30px;
+}
+
+.showgirl {
+	border-left: 10px solid #c5b358;
+	margin: 70px 0;
+}
+
 body {
   /* fallback */
   background-color: #2F2727;
