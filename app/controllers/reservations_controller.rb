@@ -7,6 +7,7 @@ class ReservationsController < ApplicationController
 		@reservation = Reservation.new(reservation_params)
 
 		if @reservation.save
+			ReservationMailer.reservation_email(@reservation).deliver_now
 			redirect_to reserve_path
 		end
 	end

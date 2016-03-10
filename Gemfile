@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'figaro'
+
 gem 'jquery-timepicker-rails'
 
 gem 'materialize-sass'
