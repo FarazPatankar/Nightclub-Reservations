@@ -1,2 +1,194 @@
 @import 'materialize';
 @import 'jquery.timepicker';
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script|Bad+Script|Special+Elite|Antic+Slab|Rock+Salt);
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: 80px;
+}
+
+.nav-transparent {
+	background-color: rgba(0,0,0,0.72);
+	border: 0;
+	box-shadow: none;
+	z-index: 999;
+	-webkit-font-smoothing: antiliased;
+	-webkit-transition: background .5s ease-in-out, opacity;
+}
+
+.nav-links-right {
+	font-family: 'Rock Salt';
+	font-size: 18px;
+	padding: 0 20px 0 0;
+}
+
+.nav-links-left {
+	font-family: 'Rock Salt';
+	font-size: 30px;
+	margin: 0 0 0 20px;
+}
+
+.feature {
+	padding: 40px 0 0 0;
+	font-family: 'Rock Salt';
+	font-size: 44px;
+	color: #c5b358;
+	-webkit-text-stroke: 1.5px black;
+}
+
+.performance-title {
+	font-size: 32px;
+	font-family: 'Special Elite';
+	margin-bottom: 0;
+}
+
+.performance-date {
+	font-family: 'Kaushan Script';
+	font-size: 16px;
+	color: #c5b358;
+}
+
+img.responsive-img.circle {
+	width: 350px;
+	height: 350px;
+}
+
+.album-photo {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+div.material-placeholder {
+	display: inline-block;
+	padding: 5px 10px;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+img.responsive-img.materialboxed.initialized {
+	height: 200px;
+	width: auto;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.our-performers {
+	font-family: 'Special Elite';
+	font-size: 140px;
+	color: #c5b358;
+	-webkit-text-stroke: 1.5px black;
+	position: absolute;
+	transform: rotate(90deg);
+	top: 245%;
+  right: -30%;
+
+}
+
+.our-girls {
+	font-family: 'Special Elite';
+	font-size: 140px;
+	color: #c5b358;
+	-webkit-text-stroke: 1.5px black;
+	position: absolute;
+	transform: rotate(-90deg);
+	bottom: 2%;
+  left: -13%;
+}
+
+.performer {
+	border-right: 10px solid #c5b358;
+	margin: 70px 30px 30px 0;
+}
+
+.showgirl {
+	border-left: 10px solid #c5b358;
+	margin: 30px 0 30px 30px;
+}
+
+body {
+  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#054083), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #054083, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #054083, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #054083, #2F2727);
+}
+
+.about-title {
+	font-family: 'Rock Salt';
+	font-size: 44px;
+	padding: 55px 0 20px 45px;
+	color: #c5b358;
+	-webkit-text-stroke: 1.5px black;
+}
+
+.about-body {
+	font-family: 'Antic-Slab';
+	font-size: 18px;
+	text-align: justify;
+  text-justify: inter-word;
+	padding-left: 45px;
+	color: grey;
+}
+
+.about-us-image {
+	margin-top: 65px;
+}
+
+.contact-us {
+	font-family: 'Special Elite';
+	font-size: 22px;
+	margin: 0;
+}
+
+.contact-us-body {
+	font-family: 'Antic Slab';
+	font-size: 18px;
+	margin: 0;
+	color: #c5b358;
+}
+
+i.right {
+	margin-top: 10px;
+	margin-left: -31px;
+}
+
+footer.page-footer {
+	background-color: rgba(0,0,0,0.32);
+	border: 0;
+	box-shadow: none;
+	z-index: 999;
+	-webkit-font-smoothing: antiliased;
+	-webkit-transition: background .5s ease-in-out, opacity;
+	padding-top: 0;
+}
+
+div.row.contact-us-row {
+	margin: 0;
+	padding: 60px 0 20px 0;
+}
+
+
+.footer-links {
+	font-family: 'Antic Slab';
+	font-size: 14px;
+	padding: 0 20px;
+}

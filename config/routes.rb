@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
   get "/reserve" => "reservations#index"
   post "/reserve" => "reservations#create"
+  root "static_pages#home"
+  get '/photos' => 'static_pages#photos'
+  get '/about' => 'static_pages#about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
