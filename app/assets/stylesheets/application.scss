@@ -43,7 +43,8 @@ main {
   z-index: 99;
   background-color: #c5b358;
   color: #424242;
-  box-shadow: 2px 3px 0px #888888
+  box-shadow: 2px 3px 0px #888888;
+  border-radius: 6px;
 }
 
 .btn.res-btn {
@@ -53,6 +54,7 @@ main {
   color: #424242;
   height: 32px;
   box-shadow: 2px 3px 0px #888888;
+  border-radius: 3px;
 }
 
 .feature {
